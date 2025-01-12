@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Bubble Game</h1>
+        <p>Hit Number: <span id="hit"></span></p>
+        <p>Score: <span id="score">0</span></p>
+        <p>Time Left: <span id="timer">60</span> seconds</p>
+        <div id="bpanel"></div>
+        <div id="game-over" class="hidden">
+            <h2>Game Over!</h2>
+            <p>Your Final Score: <span id="final-score">0</span></p>
+            <button id="start-again">Start Again</button>
+        </div>
+    </div>
+    <audio id="hit-sound" src="assets/notification-21-270139.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

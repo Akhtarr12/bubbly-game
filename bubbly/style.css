@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(199, 147, 199);
+}
+
+#bpanel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.bubble:hover {
+    transform: scale(1.1);
+}
+
+.hidden {
+    display: none;
+}
+
+#game-over {
+    margin-top: 20px;
+}
